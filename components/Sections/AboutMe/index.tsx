@@ -46,12 +46,6 @@ export const AboutMe = () => {
         <Paragraph>
           I'm a <Mark>Business Director</Mark> with{' '}<Mark>{yearsOfExperience} years of experience</Mark> in the field and I'm especially passionate about Sales and Project Management.
         </Paragraph>
-        <Paragraph>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        </Paragraph>
-        <Paragraph>
-          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-        </Paragraph>
       </Flex>
     </Flex>
   )

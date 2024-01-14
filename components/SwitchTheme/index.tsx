@@ -4,9 +4,9 @@ import { Link } from 'components/Link'
 import styled from 'styled-components'
 
 const IconWrapper = styled.div`
-  bottom: 8px;
   left: 8px;
   position: fixed;
+  top: 8px;
   z-index: 10;
 `
 
@@ -18,11 +18,11 @@ const IconLink = styled(Link)`
   box-shadow: inset 0 0 0 0px #222;
   color: #222;
   display: flex;
-  height: 48px;
+  height: 40px;
   justify-content: center;
-  line-height: 48px;
+  line-height: 40px;
   transition: all 0.3s;
-  width: 48px;
+  width: 40px;
 
   @media (hover: hover) {
     &:hover {
@@ -40,7 +40,7 @@ const Icon = styled(FontAwesomeIcon)`
 export const SwitchTheme = ({ onTap }: { onTap: () => void }) => (
   <IconWrapper onClick={onTap}>
     <IconLink>
-      <Icon icon={faLightbulb} size="3x" />
+      <Icon icon={faLightbulb} size="2x" />
     </IconLink>
   </IconWrapper>
 )
