@@ -6,7 +6,7 @@ type Props = {
 }
 
 export const HeadingSmall = styled.div<Props>`
-  font-size: 2rem;
+  font-size: 3.2rem;
   font-style: ${({ fontStyle }) => (fontStyle ? fontStyle : 'normal')};
   font-weight: ${({ weight }) => (weight ? weight : '300')};
   line-height: 1.2;

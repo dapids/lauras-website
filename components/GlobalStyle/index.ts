@@ -1,8 +1,8 @@
 import { createGlobalStyle } from 'styled-components'
 
 export const lightTheme = {
-  body: '#fefefe',
-  text: '#222',
+  body: '#f8f7f5',
+  text: '#1c1c1e',
 }
 
 export const darkTheme = {
@@ -26,7 +26,7 @@ export const GlobalStyle = createGlobalStyle`
   body {
     background-color: ${({ theme }: GlobalStyle) => theme.body};
     color: ${({ theme }: GlobalStyle) => theme.text};
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-feature-settings: "kern", "liga", "pnum";
     font-size: 1rem;
     line-height: 1.5;

@@ -1,12 +1,11 @@
 import { StyleSheetManager, ThemeProvider } from 'styled-components'
 import Head from 'next/head'
-import { BackToTop } from 'components/BackToTop'
 import { Container } from 'components/Container'
 import { Footer } from 'components/Footer'
-import { darkTheme, lightTheme, GlobalStyle } from 'components/GlobalStyle'
+import { lightTheme, GlobalStyle } from 'components/GlobalStyle'
 import { AboutMe } from 'components/Sections/AboutMe'
-import { SwitchTheme } from 'components/SwitchTheme'
-import React, { useState } from 'react'
+import { Experience } from 'components/Sections/Experience'
+import React from 'react'
 import { Header } from 'components/Header'
 
 export async function getStaticProps() {
@@ -25,17 +24,15 @@ const shouldForwardProp = (prop: string) => ![
 ].includes(prop)
 
 export default function Home() {
-  const [themeIsDark, setThemeIsDark] = useState(false)
-
   return (
     <React.StrictMode>
       <Head>
-        <title>Laura - Web Developer & Designer | Portfolio</title>
-        <meta name="description" content="Explore my web development and design portfolio. Specializing in modern web technologies and user-centered design." />
-        <meta name="keywords" content="web developer, designer, portfolio, web design, react, nextjs" />
+        <title>Laura Tota | Strategy Advisor & Business Developer</title>
+        <meta name="description" content="Laura Tota is a Strategy Advisor and Business Developer with extensive experience in sales, business development, and strategic growth." />
+        <meta name="keywords" content="strategy advisor, business developer, business development, sales, strategic growth, consultant" />
       </Head>
       <StyleSheetManager shouldForwardProp={shouldForwardProp}>
-        <ThemeProvider theme={themeIsDark ? darkTheme : lightTheme}>
+        <ThemeProvider theme={lightTheme}>
           <GlobalStyle />
 
           <Container>
@@ -43,12 +40,10 @@ export default function Home() {
 
             <AboutMe />
 
+            <Experience />
+
             <Footer />
           </Container>
-
-          <BackToTop />
-
-          <SwitchTheme onTap={() => setThemeIsDark(!themeIsDark)}/>
         </ThemeProvider>
       </StyleSheetManager>
     </React.StrictMode>
