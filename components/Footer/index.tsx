@@ -3,19 +3,25 @@ import { Caption } from 'components/Typography/Caption'
 import styled from 'styled-components'
 
 const Wrapper = styled.div`
+  align-items: center;
   border-top: 1px solid #e5e7eb;
+  display: flex;
+  justify-content: center;
   margin-top: 32px;
-  padding: 24px 42px 0;
+  min-height: 72px;
+  padding: 0 42px;
   text-align: center;
 `
 
 export const Footer = () => (
   <Wrapper>
     <Caption as="span" weight="400">
-      © {new Date().getFullYear()} Laura Tota. All rights reserved. Developed by
-      {' '}
-      <Link href='//davidsorrentino.com' target='_blank' rel='noopener noreferrer'>David Sorrentino</Link>
-      .
+      © {new Date().getFullYear()} Laura Tota. All rights reserved.{' '}
+      <span style={{ whiteSpace: 'nowrap' }}>
+        Developed by{' '}
+        <Link href='//davidsorrentino.com' target='_blank' rel='noopener noreferrer'>David Sorrentino</Link>
+        .
+      </span>
     </Caption>
   </Wrapper>
 )

@@ -1,19 +1,11 @@
 import { Body } from 'components/Typography/Body'
-import { Caption } from 'components/Typography/Caption'
 import { Heading } from 'components/Typography/Heading'
+import { Caption } from 'components/Typography/Caption'
 import styled from 'styled-components'
 
 const Section = styled.section`
-  margin-top: 64px;
+  margin-top: 40px;
   width: 100%;
-`
-
-const SectionLead = styled(Caption).attrs({ weight: '400' })`
-  color: #6b7280;
-  font-size: 1.4rem;
-  letter-spacing: 0.08em;
-  margin-bottom: 6px;
-  text-transform: uppercase;
 `
 
 const Grid = styled.div`
@@ -36,12 +28,6 @@ const Card = styled.div`
   flex-direction: column;
   gap: 8px;
   padding: 20px 24px;
-  transition: box-shadow 0.2s, border-left-color 0.2s;
-
-  &:hover {
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.07);
-    border-left-color: #1d4ed8;
-  }
 `
 
 const CardHeader = styled.div`
@@ -52,13 +38,13 @@ const CardHeader = styled.div`
 
 const Company = styled(Body).attrs({ weight: '500' })`
   color: #0f172a;
-  font-size: 1.8rem;
+  font-size: 2.2rem;
   letter-spacing: -0.01em;
 `
 
 const Role = styled(Caption).attrs({ weight: '400' })`
   color: #6b7280;
-  font-size: 1.4rem;
+  font-size: 1.7rem;
 `
 
 const Description = styled(Body).attrs({ weight: '400' })`
@@ -103,7 +89,6 @@ const experiences = [
 
 export const Experience = () => (
   <Section>
-    <SectionLead>Professional Journey</SectionLead>
     <Heading as="h2">Experience</Heading>
     <Grid>
       {experiences.map(({ company, role, summary }) => (
