@@ -7,6 +7,12 @@ function generateSiteMap() {
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
       </url>
+      <url>
+        <loc>https://lauratota.com/lumina-consulting</loc>
+        <lastmod>${new Date().toISOString()}</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+      </url>
     </urlset>
   `
 }

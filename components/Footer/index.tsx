@@ -4,7 +4,7 @@ import styled from 'styled-components'
 
 const Wrapper = styled.div`
   align-items: center;
-  border-top: 1px solid #e5e7eb;
+  border-top: 1px solid var(--cream-deep);
   display: flex;
   justify-content: center;
   margin-top: 32px;
@@ -16,9 +16,9 @@ const Wrapper = styled.div`
 export const Footer = () => (
   <Wrapper>
     <Caption as="span" weight="400">
-      © {new Date().getFullYear()} Laura Tota. All rights reserved.{' '}
+      © {new Date().getFullYear()} Laura Tota. Tutti i diritti riservati.{' '}
       <span style={{ whiteSpace: 'nowrap' }}>
-        Developed by{' '}
+        Sviluppato da{' '}
         <Link href='//davidsorrentino.com' target='_blank' rel='noopener noreferrer'>David Sorrentino</Link>
         .
       </span>

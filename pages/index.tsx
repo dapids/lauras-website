@@ -4,6 +4,7 @@ import { Container } from 'components/Container'
 import { Footer } from 'components/Footer'
 import { lightTheme, GlobalStyle } from 'components/GlobalStyle'
 import { AboutMe } from 'components/Sections/AboutMe'
+import { CallToAction } from 'components/Sections/CallToAction'
 import { Experience } from 'components/Sections/Experience'
 import React from 'react'
 import { Header } from 'components/Header'
@@ -27,24 +28,29 @@ export default function Home() {
   return (
     <React.StrictMode>
       <Head>
-        <title>Laura Tota | Strategy Advisor & Business Developer</title>
+        <title>Laura Tota | Consulente Strategica & Business Developer</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="description" content="Laura Tota is a Strategy Advisor and Business Developer with 20+ years of experience driving growth, building strategic partnerships, and leading business development across international markets." />
-        <meta name="keywords" content="Laura Tota, strategy advisor, business developer, business development, sales director, territory manager, international markets, strategic partnerships" />
+        <meta name="description" content="Laura Tota è una Consulente Strategica e Business Developer con oltre 20 anni di esperienza nel far crescere il business, costruire partnership strategiche e guidare lo sviluppo commerciale nei mercati internazionali." />
+        <meta name="keywords" content="Laura Tota, consulente strategica, business developer, sviluppo business, direttrice vendite, responsabile di zona, mercati internazionali, partnership strategiche" />
         <meta name="robots" content="index, follow" />
         <link rel="canonical" href="https://lauratota.com" />
 
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://lauratota.com" />
-        <meta property="og:title" content="Laura Tota | Strategy Advisor & Business Developer" />
-        <meta property="og:description" content="Laura Tota is a Strategy Advisor and Business Developer with 20+ years of experience driving growth, building strategic partnerships, and leading business development across international markets." />
-        <meta property="og:locale" content="en_US" />
+        <meta property="og:site_name" content="Laura Tota" />
+        <meta property="og:title" content="Laura Tota | Consulente Strategica & Business Developer" />
+        <meta property="og:description" content="Laura Tota è una Consulente Strategica e Business Developer con oltre 20 anni di esperienza nel far crescere il business, costruire partnership strategiche e guidare lo sviluppo commerciale nei mercati internazionali." />
+        <meta property="og:locale" content="it_IT" />
+        <meta property="og:image" content="https://lauratota.com/my-picture.jpg" />
+        <meta property="og:image:alt" content="Laura Tota, Consulente Strategica e Business Developer" />
 
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:site" content="@LauraTota8" />
         <meta name="twitter:creator" content="@LauraTota8" />
-        <meta name="twitter:title" content="Laura Tota | Strategy Advisor & Business Developer" />
-        <meta name="twitter:description" content="Laura Tota is a Strategy Advisor and Business Developer with 20+ years of experience driving growth, building strategic partnerships, and leading business development across international markets." />
+        <meta name="twitter:title" content="Laura Tota | Consulente Strategica & Business Developer" />
+        <meta name="twitter:description" content="Laura Tota è una Consulente Strategica e Business Developer con oltre 20 anni di esperienza nel far crescere il business, costruire partnership strategiche e guidare lo sviluppo commerciale nei mercati internazionali." />
+        <meta name="twitter:image" content="https://lauratota.com/my-picture.jpg" />
+        <meta name="twitter:image:alt" content="Laura Tota, Consulente Strategica e Business Developer" />
 
         <script
           type="application/ld+json"
@@ -52,7 +58,7 @@ export default function Home() {
             '@context': 'https://schema.org',
             '@type': 'Person',
             name: 'Laura Tota',
-            jobTitle: 'Strategy Advisor & Business Developer',
+            jobTitle: 'Consulente Strategica & Business Developer',
             url: 'https://lauratota.com',
             sameAs: [
               'https://linkedin.com/in/lauratota123',
@@ -61,10 +67,10 @@ export default function Home() {
               'https://threads.net/@_elle_ti________',
             ],
             knowsAbout: [
-              'Business Development',
-              'Sales Strategy',
-              'Strategic Partnerships',
-              'Territory Management',
+              'Sviluppo Business',
+              'Strategia di Vendita',
+              'Partnership Strategiche',
+              'Gestione del Territorio',
             ],
           })}}
         />
@@ -77,6 +83,8 @@ export default function Home() {
             <Header />
 
             <AboutMe />
+
+            <CallToAction />
 
             <Experience />
 

@@ -6,9 +6,12 @@ type Props = {
 }
 
 export const HeadingSmall = styled.div<Props>`
-  font-size: 3.2rem;
+  color: var(--wine);
+  font-size: 1.7rem;
   font-style: ${({ fontStyle }) => (fontStyle ? fontStyle : 'normal')};
-  font-weight: ${({ weight }) => (weight ? weight : '300')};
-  line-height: 1.2;
-  margin: 0 0 0.75rem;
+  font-weight: ${({ weight }) => (weight ? weight : '400')};
+  letter-spacing: 1.6px;
+  line-height: 1.4;
+  margin: 0.2rem 0 0.75rem;
+  text-transform: uppercase;
 `

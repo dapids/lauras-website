@@ -8,7 +8,7 @@ export default function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>Laura Tota | Strategy Advisor & Business Developer</title>
+        <title>Laura Tota | Consulente Strategica & Business Developer</title>
       </Head>
       <Component {...pageProps} />
     </>

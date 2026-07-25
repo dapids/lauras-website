@@ -5,6 +5,8 @@ type Props = {
 }
 
 export const Caption = styled.div<Props>`
-  font-size: 1.4rem;
-  font-weight: ${({ weight }) => (weight ? weight : '300')};
+  color: var(--muted);
+  font-family: 'EB Garamond', serif;
+  font-size: 1.5rem;
+  font-weight: ${({ weight }) => (weight ? weight : '400')};
 `

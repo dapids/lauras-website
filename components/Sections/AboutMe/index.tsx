@@ -1,4 +1,5 @@
 import { Flex } from 'components/Flex'
+import { Link } from 'components/Link'
 import { SocialIcons } from 'components/SocialIcons'
 import { Body } from 'components/Typography/Body'
 import { Mark } from 'components/Typography/Mark'
@@ -41,8 +42,9 @@ const Picture = styled.div`
   background-position: center top;
   background-repeat: no-repeat;
   background-size: cover;
-  border: 3px solid #e5e7eb;
-  border-radius: 10px;
+  border: 3px solid var(--cream-deep);
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(34, 28, 26, 0.05);
   display: block;
   height: 300px;
   width: 220px;
@@ -51,7 +53,7 @@ const Picture = styled.div`
 const Paragraph = styled(Body).attrs({
   weight: '400',
 })`
-  font-size: clamp(2rem, 2.5vw, 2.8rem);
+  font-size: clamp(1.7rem, 2vw, 2.2rem);
   line-height: 1.4;
   margin-bottom: 12px;
 `
@@ -78,9 +80,12 @@ export const AboutMe = () => {
       </PictureAndIcons>
 
       <Flex shrink="1">
-        <Paragraph>Hi, I&apos;m Laura. 👋🏼</Paragraph>
+        <Paragraph>Ciao, sono Laura. 👋🏼</Paragraph>
         <Paragraph>
-          I&apos;m a Strategy Advisor and Business Developer with{' '}{yearsOfExperience} years of experience <Mark>driving growth</Mark>, <Mark>building strategic partnerships</Mark>, and <Mark>leading business development initiatives</Mark> across international markets.
+          Sono una Consulente Strategica e Business Developer con{' '}{yearsOfExperience} anni di esperienza nel <Mark>far crescere il business</Mark>, <Mark>costruire partnership strategiche</Mark> e <Mark>guidare lo sviluppo commerciale</Mark> nei mercati internazionali.
+        </Paragraph>
+        <Paragraph>
+          Oggi metto questa esperienza al servizio di <Link href="/lumina-consulting"><Mark>Lumina Consulting</Mark></Link>, dove affianco imprenditori, PMI e freelance per trasformare le loro ambizioni in business di successo.
         </Paragraph>
       </Flex>
     </Flex>

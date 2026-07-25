@@ -21,7 +21,7 @@ const Container = styled.div<ContainerProps>`
 const IconLink = styled(Link)`
   align-items: center;
   border-radius: 50%;
-  color: #6b7280;
+  color: var(--muted);
   display: flex;
   height: 44px;
   justify-content: center;
@@ -29,7 +29,7 @@ const IconLink = styled(Link)`
   width: 44px;
 
   &:hover {
-    color: #1e40af;
+    color: var(--wine);
     text-decoration: none;
   }
 `

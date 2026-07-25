@@ -6,7 +6,10 @@ type Props = {
 }
 
 export const Body = styled.div<Props>`
-  font-size: 1.6rem;
+  color: var(--ink);
+  font-family: 'EB Garamond', serif;
+  font-size: 1.8rem;
   font-style: ${({ fontStyle }) => (fontStyle ? fontStyle : 'normal')};
-  font-weight: ${({ weight }) => (weight ? weight : '300')};
+  font-weight: ${({ weight }) => (weight ? weight : '400')};
+  line-height: 1.5;
 `

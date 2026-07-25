@@ -20,11 +20,11 @@ const IconWrapper = styled.div<IconWrapperProps>`
 
 const IconLink = styled(Link)`
   align-items: center;
-  background: rgba(230, 230, 230, 0.8);
-  border: 2px solid #e6e6e6;
+  background: rgba(239, 220, 224, 0.85);
+  border: 2px solid var(--blush);
   border-radius: 50%;
-  box-shadow: inset 0 0 0 0px #222;
-  color: #222;
+  box-shadow: inset 0 0 0 0px var(--wine);
+  color: var(--wine);
   display: flex;
   height: 48px;
   justify-content: center;
@@ -34,8 +34,8 @@ const IconLink = styled(Link)`
 
   @media (hover: hover) {
     &:hover {
-      box-shadow: inset 0 0 0 35px #222;
-      color: #e6e6e6;
+      box-shadow: inset 0 0 0 35px var(--wine);
+      color: var(--cream);
     }
   }
 `
