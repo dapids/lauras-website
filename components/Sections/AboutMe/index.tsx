@@ -85,7 +85,7 @@ export const AboutMe = () => {
           Sono una Consulente Strategica e Business Developer con{' '}{yearsOfExperience} anni di esperienza nel <Mark>far crescere il business</Mark>, <Mark>costruire partnership strategiche</Mark> e <Mark>guidare lo sviluppo commerciale</Mark> nei mercati internazionali.
         </Paragraph>
         <Paragraph>
-          Oggi metto questa esperienza al servizio di <Link href="/lumina-consulting"><Mark>Lumina Consulting</Mark></Link>, dove affianco imprenditori, PMI e freelance per trasformare le loro ambizioni in business di successo.
+          Oggi metto questa esperienza al servizio di <Link href="/lumina-consulting"><Mark>Lumina Consulting</Mark></Link>, dove affianco imprenditori e freelance per trasformare le loro ambizioni in business di successo.
         </Paragraph>
       </Flex>
     </Flex>

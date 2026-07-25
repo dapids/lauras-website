@@ -280,8 +280,8 @@ export default function LuminaConsulting() {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="color-scheme" content="light" />
         <meta name="theme-color" content="#FFFFFF" />
-        <meta name="description" content="Lumina Consulting di Laura Tota: consulenza strategica e sviluppo business per imprenditori, PMI e freelance. Trasforma le tue ambizioni in un business di successo." />
-        <meta name="keywords" content="Lumina Consulting, Laura Tota, consulenza strategica, sviluppo business, business developer, consulente per PMI, consulente per imprenditori, strategia di vendita, partnership strategiche" />
+        <meta name="description" content="Lumina Consulting di Laura Tota: consulenza strategica e sviluppo business per imprenditorie freelance. Trasforma le tue ambizioni in un business di successo." />
+        <meta name="keywords" content="Lumina Consulting, Laura Tota, consulenza strategica, sviluppo business, business developer, consulente per imprenditori, strategia di vendita, partnership strategiche" />
         <meta name="robots" content="index, follow" />
         <link rel="canonical" href="https://lauratota.com/lumina-consulting" />
 
@@ -289,7 +289,7 @@ export default function LuminaConsulting() {
         <meta property="og:url" content="https://lauratota.com/lumina-consulting" />
         <meta property="og:site_name" content="Lumina Consulting" />
         <meta property="og:title" content="Laura Tota — Lumina Consulting | Consulenza Strategica per il tuo Business" />
-        <meta property="og:description" content="Lumina Consulting di Laura Tota: consulenza strategica e sviluppo business per imprenditori, PMI e freelance. Trasforma le tue ambizioni in un business di successo." />
+        <meta property="og:description" content="Lumina Consulting di Laura Tota: consulenza strategica e sviluppo business per imprenditorie freelance. Trasforma le tue ambizioni in un business di successo." />
         <meta property="og:locale" content="it_IT" />
         <meta property="og:image" content="https://lauratota.com/my-picture.jpg" />
         <meta property="og:image:alt" content="Laura Tota, fondatrice di Lumina Consulting" />
@@ -298,7 +298,7 @@ export default function LuminaConsulting() {
         <meta name="twitter:site" content="@LauraTota8" />
         <meta name="twitter:creator" content="@LauraTota8" />
         <meta name="twitter:title" content="Laura Tota — Lumina Consulting | Consulenza Strategica per il tuo Business" />
-        <meta name="twitter:description" content="Lumina Consulting di Laura Tota: consulenza strategica e sviluppo business per imprenditori, PMI e freelance. Trasforma le tue ambizioni in un business di successo." />
+        <meta name="twitter:description" content="Lumina Consulting di Laura Tota: consulenza strategica e sviluppo business per imprenditorie freelance. Trasforma le tue ambizioni in un business di successo." />
         <meta name="twitter:image" content="https://lauratota.com/my-picture.jpg" />
         <meta name="twitter:image:alt" content="Laura Tota, fondatrice di Lumina Consulting" />
 
@@ -309,7 +309,7 @@ export default function LuminaConsulting() {
             '@type': 'ProfessionalService',
             name: 'Lumina Consulting',
             description:
-              'Consulenza strategica e sviluppo business per imprenditori, PMI e freelance.',
+              'Consulenza strategica e sviluppo business per imprenditorie freelance.',
             url: 'https://lauratota.com/lumina-consulting',
             image: 'https://lauratota.com/my-picture.jpg',
             areaServed: 'IT',
@@ -323,7 +323,6 @@ export default function LuminaConsulting() {
               'Sviluppo Business',
               'Strategia di Vendita',
               'Partnership Strategiche',
-              'Consulenza per PMI',
             ],
           })}}
         />
